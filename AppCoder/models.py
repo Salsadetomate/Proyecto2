@@ -1,11 +1,11 @@
 from django.db import models
 
-class ferrocarril(models.Model):
+class Ferrocarril(models.Model):
 
     tipo=models.CharField(max_length=50)
     precio= models.IntegerField()
 
-class vias(models.Model):
+class Vias(models.Model):
 
     material=models.CharField(max_length=50)
     precio= models.IntegerField()
